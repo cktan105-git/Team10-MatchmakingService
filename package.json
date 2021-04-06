@@ -1,0 +1,17 @@
+{
+  "name": "recommendation-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "freny",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-personalize-runtime": "^3.11.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
